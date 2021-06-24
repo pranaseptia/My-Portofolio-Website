@@ -9,15 +9,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <!-- Boostraps Icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- My Css -->
+  
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
+  <!-- My Css -->
     <link rel="stylesheet" href="Style.css">
     <title>My Portfolio | Prana Septia</title>
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top" >
       <div class="container ">
-        <a class="navbar-brand" href="#">Prana Septia</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,7 +31,7 @@
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link " href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -44,9 +48,9 @@
     <!-- Akhir Navbar -->
     <!-- jumbotron -->
     <section class="jumbotron text-center">
-        <img src="img/profil.jpg" alt="Profil Prana Septia" width="200" class="rounded-circle img-thumbnail mt-3"/>
+        <img src="img/profil.jpg" alt="Profil Prana Septia" width="200" class="rounded-circle img-thumbnail mt-3  " />
         <h1 class="display-4">Prana Septia </h1>
-        <p class="lead">Programmer | Designer | Sound Engginer</p>
+        <p class="lead"></p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,101.3C96,107,192,117,288,138.7C384,160,480,192,576,170.7C672,149,768,75,864,69.3C960,64,1056,128,1152,149.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg></section>
     <!-- Akhir Jumbotron -->
 
@@ -54,17 +58,17 @@
 
     <section id="about">
 
-        <div class="container">
-            <div class="row text-center mb-5">
+        <div class="container" >
+            <div class="row text-center mb-5" >
                 <div class="col mb-3">
                     <h2>About Me</h2>
                 </div>
                 <div class="row justify-content-center fs-5 text-center">
-                    <div class="col-md-4 mb-3">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos perferendis veritatis esse explicabo numquam eos at aut repellendus sapiente! Excepturi.</p>
+                    <div class="col-md-4 mb-3" data-aos ="fade-right"  data-aos-duration="1000" >
+                        <p>Lahir di Ciamis, 23 September 1998 Riwayat Pendidikan SD Negeri 3 Sindangrasa, SMP Negeri 1 Banjarsari, SMA Negeri 1 Banjar,  Kuliah di Universitas Teknologi Yogyakarta Prodi Informatika.</p>
                     </div>
-                    <div class="col-md-4 mb-3">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut suscipit sapiente eius rem dicta error libero in sunt, dolorem veritatis dolor tempora, sint excepturi tempore.</p>
+                    <div class="col-md-4 mb-3" data-aos ="fade-left" data-aos-delay ="200"  data-aos-duration="1000" >
+                        <p>Merupakan asisten dosen lab praktikum Pemograman Berorientasi Objek, Aplikasi Teknologi Informasi, Sound Engginer WJPA (West Java Performing Arts Yogyakarta) Sanggar Seni Kujang. Arranger Mimbar Ekspresi Virtual Sanggar Simpay </p>
                     </div>
                 </div>
             </div>
@@ -84,42 +88,46 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/1.jpg" class="card-img-top" alt="Project">
+                    <div class="card"  data-aos="flip-left" data-aos-duration="800" data-aos-delay="0" >
+                      <a href= http://pusdiklat.uty.ac.id/#about><img src="projects/1.jpg" class="card-img-top" alt="Project"> </a>
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text text-center">Kerja Praktik di Pusdiklat UTY (Sistem Pendaftaran Ujian Sertifikasi Berbasis Website) Menggunakan CodeIgniter.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/2.jpg" class="card-img-top" alt="Project">
+                    <div class="card" data-aos="flip-left" data-aos-duration="800" data-aos-delay="100" >
+                      <a href= http://pusdiklat.uty.ac.id/#about><img src="projects/2.jpg" class="card-img-top" alt="Project"> </a>
+                        
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text text-center">Kerja Praktik di Pusdiklat UTY (Sistem Pendaftaran Ujian Sertifikasi Berbasis Website) Menggunakan Boostrap 5.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <img src="projects/3.jpg" class="card-img-top" alt="Project">
+                    <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200" >
+                      <a href="https://www.youtube.com/channel/UCLSbVY-hLATD3wex0wNkcAQ"><img src="projects/3.jpg" class="card-img-top" alt="Project">
+                        </a>
                         <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="card-text text-center">Acara WJPA (West Java Performing Arts) Sanggar seni Kujang 2020.</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                  <div class="card">
-                      <img src="projects/4.jpg" class="card-img-top" alt="Project">
+                  <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300" >
+                    <a href="https://www.youtube.com/watch?v=usFWJaPxhvQ"><img src="projects/4.jpg" class="card-img-top" alt="Project">
+                      </a>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text text-center">Arranger Mimbar Ekpresi Virtual Sanggar Simpay 2021.</p>
                       </div>
                     </div>
               </div>
               <div class="col-md-4 mb-3">
-                <div class="card">
-                    <img src="projects/5.jpg" class="card-img-top" alt="Project">
+                <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="400" >
+                  <a href="http://uty.ac.id"><img src="projects/5.jpg" class="card-img-top" alt="Project">
+                    </a>
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text text-center">Asisten Dosen Lab Praktikum.</p>
                     </div>
                   </div>
             </div>
@@ -127,6 +135,108 @@
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,32L26.7,64C53.3,96,107,160,160,165.3C213.3,171,267,117,320,80C373.3,43,427,21,480,37.3C533.3,53,587,107,640,128C693.3,149,747,139,800,138.7C853.3,139,907,149,960,176C1013.3,203,1067,245,1120,218.7C1173.3,192,1227,96,1280,80C1333.3,64,1387,128,1413,160L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg></section>
     <!-- Akhir Project -->
+
+
+    <!-- Gallery -->
+<section id="gallery">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h2>Gallery</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center" >
+      
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/1.png" alt="Gambar 1" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="400">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/2.png" alt="Gambar 2" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="500">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/3.png" alt="Gambar 3" class="img-fluid gallery-img"  data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="600" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/4.png" alt="Gambar 4" class="img-fluid gallery-img"  data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="700" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/5.png" alt="Gambar 5" class="img-fluid gallery-img"  data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="400" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/6.png" alt="Gambar 6" class="img-fluid gallery-img"  data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="500"  >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/7.png" alt="Gambar 7" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="600" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/8.png" alt="Gambar 8" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="700" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/9.png" alt="Gambar 9" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="400" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/10.png" alt="Gambar 10" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="500" >
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/11.png" alt="Gambar 11" class="img-fluid gallery-img" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="600">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="#">
+          <img src="img/gallery/12.png" alt="Gambar 12" class="img-fluid gallery-img  "  data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom data-aos-duration="500" data-aos-delay="600">
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+    <!-- AKhir Gallery-->
+
 
     <!-- Contact -->
     <section id="contact">
@@ -179,6 +289,17 @@
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbx7rNQyzIAdM4tEwLABRjRbRRoKrWDjaA9i24qVZBuZZCbi8b_6pE0jNh2I5wB_G0H7/exec'
      
@@ -205,5 +326,21 @@
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", {duration:2, delay: 1.5, text:'Programmer | Designer | Sound Engineer'});
+      gsap.to(".about", {duration:2, delay: 1.5, text:'About'});
+      gsap.to(".navbar-brand",{duration:1, delay: 1, text:'Prana Septia'});
+      gsap.from(".jumbotron img", {duration: 1, rotateY:360, opacity: 0, ease:'bounce'});
+      gsap.from(".navbar",{duration: 1.5, y:'-100',opacity:0});
+      gsap.from(".display-4",{duration: 1, x:'-50',opacity:0, delay:0.5, ease:'back'});
+   
+    </script>
+
+   
+      
   </body>
 </html>
